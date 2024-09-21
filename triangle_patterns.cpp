@@ -54,6 +54,20 @@ int main(){
         cout<<endl; 
     }
 
+    //inverted triamgle
+   int e=4;
+   //int num=1;
+   for(int i=0;i<e;i++){
+    for(int j=0;j<i;j++){
+        cout<<" ";
+    }
+    for(int j=0;j<e-1;j++){
+        cout<<(i+1);
+    }
+    cout<<endl;
+   }
+
+
 
     return 0;
 }
